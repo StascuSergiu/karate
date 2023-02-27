@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8d38788-5a02-4a5a-a3da-beffa0eaea41" name="Changes" comment="new karate project">
+    <list default="true" id="a8d38788-5a02-4a5a-a3da-beffa0eaea41" name="Changes" comment="change file name from ExamplesTest.java -&gt; ParallelTestRunner.java">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/post/PostRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/post/post.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/post/postValidationData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/post/requestData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/get/UsersRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/get/GetRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +75,50 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ParallelTestRunner">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sergi\Desktop\PlayGround\Karate\src\test\java\tests\post" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.post" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: POST demo 6  set project path">
+    <configuration name="Scenario: POST demo 6  set project path" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/tests/post/post.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Karate" />
+      <option name="NAME_FILTER" value="^POST demo 6  set project path$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^POST demo 6  set project path$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: POST demo 6  set project path" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Karate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.get.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.get" />
+      <option name="MAIN_CLASS_NAME" value="tests.get.GetRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParallelTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Karate" />
       <extension name="coverage">
@@ -85,16 +134,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsersRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Karate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.get.*" />
+          <option name="PATTERN" value="tests.post.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="examples.users" />
-      <option name="MAIN_CLASS_NAME" value="tests.get.UsersRunner" />
+      <option name="PACKAGE_NAME" value="tests.post" />
+      <option name="MAIN_CLASS_NAME" value="tests.post.PostRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: POST demo 6  set project path" />
+        <item itemvalue="JUnit.PostRunner" />
+        <item itemvalue="JUnit.GetRunner" />
         <item itemvalue="JUnit.ParallelTestRunner" />
         <item itemvalue="JUnit.UsersRunner" />
-        <item itemvalue="JUnit.UsersRunner" />
-        <item itemvalue="JUnit.ExamplesTest" />
-        <item itemvalue="JUnit.ExamplesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677497321225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change file name from ExamplesTest.java -&gt; ParallelTestRunner.java">
+      <created>1677498683045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677498683045</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +215,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new karate project" />
-    <option name="LAST_COMMIT_MESSAGE" value="new karate project" />
+    <MESSAGE value="change file name from ExamplesTest.java -&gt; ParallelTestRunner.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="change file name from ExamplesTest.java -&gt; ParallelTestRunner.java" />
   </component>
 </project>
