@@ -6,6 +6,7 @@ Feature: POST API demo
     * def projectPath = karate.properties['user.dir']
     * def JSONRequestFile = '../testData/requestData.json'
     * def JSONResponseFile = '../testData/responseData.json'
+    * def JSONResponseFileDemo4 = '../testData/responseDataDemo4.json'
 
   Scenario: POST demo 1
     Given url 'https://reqres.in/api/users'
@@ -34,7 +35,7 @@ Feature: POST API demo
     And request  {"name": "Demo4","job": "tester"}
     When method POST
     Then status 201
-    And match response == expectedJSONResponse
+    And match response == read(JSONResponseFileDemo4)
     And print response
 
   Scenario: POST demo 5  read request and response json from file

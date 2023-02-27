@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8d38788-5a02-4a5a-a3da-beffa0eaea41" name="Changes" comment="change file name from ExamplesTest.java -&gt; ParallelTestRunner.java">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testData/responseDataDemo4.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/post/post.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/post/post.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/post/testData/postValidationData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/testData/responseData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/post/testData/requestData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/testData/requestData.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +64,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/sergi/Desktop/PlayGround/Karate/src/test/java/tests/testData"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sergi\Desktop\PlayGround\Karate\src\test\java\tests\testData" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sergi\Desktop\PlayGround\Karate\src\test\java\tests\post\testData" />
       <recent name="C:\Users\sergi\Desktop\PlayGround\Karate\src\test\java\tests\post" />
@@ -81,7 +84,27 @@
       <recent name="tests.post" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: POST demo 5  read request and response json from file">
+  <component name="RunManager" selected="JUnit.PostRunner">
+    <configuration name="Scenario: POST demo 4 read response json from file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/tests/post/post.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Karate" />
+      <option name="NAME_FILTER" value="^POST demo 4 read response json from file$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^POST demo 4 read response json from file$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: POST demo 4 read response json from file" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: POST demo 5  read request and response json from file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/tests/post/post.feature" />
@@ -137,21 +160,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Karate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ParallelTestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PostRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Karate" />
       <extension name="coverage">
@@ -169,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostRunner" />
+        <item itemvalue="Cucumber Java.Scenario: POST demo 4 read response json from file" />
         <item itemvalue="Cucumber Java.Scenario: POST demo 5  read request and response json from file" />
         <item itemvalue="Cucumber Java.Scenario: POST demo 6  set project path" />
-        <item itemvalue="JUnit.PostRunner" />
         <item itemvalue="JUnit.GetRunner" />
-        <item itemvalue="JUnit.ParallelTestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +234,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="lesson_6" />
+                        <option value="relative_file_paths" />
                       </list>
                     </value>
                   </entry>
