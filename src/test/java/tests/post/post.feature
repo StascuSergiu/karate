@@ -3,7 +3,11 @@ Feature: POST API demo
   Background:
     * url 'https://reqres.in/api'
     * header Accept = 'application.json'
-    * def expectedJSONResponse = read("postValidationData.json")
+    * def projectPath = karate.properties['user.dir']
+    #* def expectedJASONFilePath = projectPath+'/src/test/java/tests/post/testData/postValidationData.json'
+    * def expectedJSONResponse = read(projectPath+'/src/test/java/tests/post/testData/postValidationData.json')
+  #  * def validationDataFilePath = projectPath+'src/test/java/tests/post/testData/postValidationData.json'
+  #  * def expectedJSONResponse = read(validationDataFilePath)
 
   Scenario: POST demo 1
     Given url 'https://reqres.in/api/users'
@@ -37,8 +41,8 @@ Feature: POST API demo
 
   Scenario: POST demo 5  read request and response json from file
     Given path 'users'
-    And def requestJSONBody = read("requestData.json")
-    And request requestJSONBody
+    And print expectedJASONFilePath
+    And request requestJSONData
     When method POST
     Then status 201
     And match response == expectedJSONResponse
