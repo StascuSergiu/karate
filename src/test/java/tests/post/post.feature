@@ -46,4 +46,16 @@ Feature: POST API demo
     And print response
     And match response == read(JSONResponseFile)
 
+  Scenario: POST demo 6  change data from JSON file before using
+    Given path 'users'
+    And def requestBasedOnJsonFile = read(JSONRequestFile)
+    And set requestBasedOnJsonFile.name = 'changeName'
+    And request requestBasedOnJsonFile
+    When method POST
+    Then status 201
+    And print response
+    And def expectedResponse = read(JSONResponseFile)
+    And set expectedResponse.name = 'changeName'
+    And match response == expectedResponse
+
 
