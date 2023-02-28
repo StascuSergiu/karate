@@ -3,7 +3,6 @@ Feature: POST API demo
   Background:
     * url 'https://reqres.in/api'
     * header Accept = 'application.json'
-    * def projectPath = karate.properties['user.dir']
     * def JSONRequestFile = '../testData/requestData.json'
     * def JSONResponseFile = '../testData/responseData.json'
     * def JSONResponseFileDemo4 = '../testData/responseDataDemo4.json'
