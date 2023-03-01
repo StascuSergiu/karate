@@ -4,7 +4,7 @@ import com.intuit.karate.junit5.Karate;
 
 class PutRunner {
     @Karate.Test
-    Karate testPost() {
+    Karate testPut() {
         return Karate.run("put").relativeTo(getClass());
     }
 }
