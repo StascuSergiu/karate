@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TestRunner {
-
     @Test
     void testParallel() {
         Results results = Runner.path("classpath:tests")
@@ -15,5 +14,4 @@ class TestRunner {
                 .parallel(1);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
     }
-
 }
